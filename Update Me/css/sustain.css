@@ -1,6 +1,4 @@
-/* ===========================
-   Global Backgrounds, Colors, and Widths
-   =========================== */
+
 * {
   box-sizing: border-box;
 }
@@ -19,19 +17,12 @@ body {
   border: 1px solid #cccccc;
 }
 
-/* ===========================
-   Logo
-   =========================== */
 #logo {
   background-color: #f4f4f4;
   border-bottom: 2px solid #cccccc;
   padding: 10px;
   text-align: center;
 }
-
-/* ===========================
-   Navigation Bar
-   =========================== */
 nav {
   background-color: #333333;
 }
@@ -59,18 +50,12 @@ nav a:hover {
   background-color: #555555;
 }
 
-/* ===========================
-   Main Image
-   =========================== */
 #mainimg {
   width: 100%;
   border-top: 2px solid #cccccc;
   border-bottom: 2px solid #cccccc;
 }
 
-/* ===========================
-   Bottom Three Columns
-   =========================== */
 #bottom {
   display: flex;
   justify-content: space-between;
@@ -83,10 +68,6 @@ nav a:hover {
   padding: 10px;
   border: 1px solid #cccccc;
 }
-
-/* ===========================
-   Sidebar
-   =========================== */
 #sidebar {
   float: right;
   width: 30%;
@@ -103,10 +84,6 @@ nav a:hover {
   list-style-type: square;
   padding-left: 20px;
 }
-
-/* ===========================
-   Home Page Columns
-   =========================== */
 #homecolumns {
   float: left;
   width: 68%;
@@ -123,3 +100,4 @@ nav a:hover {
 #homecolumns h2 {
   margin-top: 0;
 }
+
